@@ -1,7 +1,7 @@
-<article>
-  <header class="post-header">
-    <h1><a href="{{include.post.url}}">{{ include.post.title }}</a></h1>
+<article class="post">
+  <div class="meta">
     <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+    <h1><a href="{{include.post.url}}">{{ include.post.title }}</a></h1>
 
     {% if include.post.author %}
       <span>{{ include.post.author }}</span>
@@ -10,7 +10,9 @@
     {% if include.post.meta %}
       {{ include.post.meta }}
     {% endif %}
-  </header>
+  </div>
 
-  {{ include.post.content | markdownify }}
+  <div class="content">
+    {{ include.post.content | markdownify }}
+  </div>
 </article>

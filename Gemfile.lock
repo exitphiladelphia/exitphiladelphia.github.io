@@ -8,6 +8,10 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    bitters (0.10.0)
+      bourbon (>= 3.2)
+      sass (>= 3.2)
+      thor
     blankslate (2.1.2.4)
     bourbon (4.0.2)
       sass (~> 3.3)
@@ -121,6 +125,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bitters
   bourbon
   github-pages
   neat (= 1.5.0)

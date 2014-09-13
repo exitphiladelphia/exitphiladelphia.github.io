@@ -1,12 +1,25 @@
 header {
   text-align: center;
+
+  h1 {
+    width: 2.45em;
+    margin: auto;
+    font-size: 4.30em;
+    background-color: black;
+    color: white;
+  }
+
+  small {
+    display: block;
+    font-size: 0.3em;
+  }
+
+  a {
+    margin: auto $base-margin;
+  }
+
+  nav {
+    margin: $base-margin auto;
+  }
 }
 
-header h1 {
-  background-color: black;
-  color: white;
-}
-
-header a {
-  margin: 10px 20px;
-}

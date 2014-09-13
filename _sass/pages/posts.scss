@@ -1,0 +1,48 @@
+.meta {
+  h1, time {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.content {
+  $header-size: $base-font-size * 0.75;
+
+  h1 {
+    font-size: $header-size * 2.25;
+  }
+
+  h2 {
+    font-size: $header-size * 2;
+  }
+
+  h3 {
+    font-size: $header-size * 1.75;
+  }
+
+  h4 {
+    font-size: $header-size * 1.5;
+  }
+
+  h5 {
+    font-size: $header-size * 1.25;
+  }
+
+  h6 {
+    font-size: $header-size;
+  }
+
+  ul {
+    @extend %default-ul;
+  }
+
+  ol {
+    @extend %default-ol;
+  }
+
+  iframe {
+    display: block;
+    margin: auto;
+  }
+}
