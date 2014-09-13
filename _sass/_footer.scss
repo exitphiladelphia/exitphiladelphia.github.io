@@ -1,10 +1,22 @@
 footer {
-  text-align: right;
+  margin-top: $base-margin;
+  text-align: center;
+
+  @include media($medium-screen-up) {
+    text-align: right;
+  }
 }
 
 footer a img {
-  width: 25px;
-  height: 25px;
+  margin: auto $base-margin;
+  width: 50px;
+  height: 50px;
+
+  @include media($medium-screen-up) {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
 }
 
 img.white {
