@@ -1,15 +1,20 @@
 address:
-  street: 825 N 2nd St
-  state: Philadelphia, PA 12123
-  phone: (215) 425-2450
+  street: "825 N 2nd St"
+  state: "Philadelphia, PA 12123"
+  phone: "(215) 425-2450"
 baseurl: ""
+collections:
+  events:
+    output: true
 description: >
   Exit Skateshop
-email: shop@exitphiladelphia.com
-markdown: kramdown
+email: "shop@exitphiladelphia.com"
+markdown: "kramdown"
+paginate: 10
 social:
-  twitter: exitphiladelphia
-  instagram:  exitphiladelphia
-  facebook: ExitSkateshop
-title: Exit Philadelphia
+  twitter: "exitphiladelphia"
+  instagram: "exitphiladelphia"
+  facebook: "ExitSkateshop"
+store: "https://exitphiladelphia.bigcartel.com"
+title: "Exit Philadelphia"
 url: "http://exitphiladelphia.com"

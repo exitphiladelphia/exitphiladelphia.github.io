@@ -1,0 +1,12 @@
+---
+layout: default
+title: Events
+---
+
+<ul>
+{% for event in site.events %}
+  <li>
+    {% include post.html post=event %}
+  </li>
+{% endfor %}
+</ul>

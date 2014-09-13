@@ -1,0 +1,16 @@
+<article>
+  <header class="post-header">
+    <h1><a href="{{include.post.url}}">{{ include.post.title }}</a></h1>
+    <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+
+    {% if include.post.author %}
+      <span>{{ include.post.author }}</span>
+    {% endif %}
+
+    {% if include.post.meta %}
+      {{ include.post.meta }}
+    {% endif %}
+  </header>
+
+  {{ include.post.content | markdownify }}
+</article>
