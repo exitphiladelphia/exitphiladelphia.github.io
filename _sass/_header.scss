@@ -2,16 +2,32 @@ header {
   text-align: center;
 
   h1 {
-    width: 2.45em;
     margin: auto;
-    font-size: 4.30em;
+    padding: $base-margin / 2;
+
     background-color: black;
     color: white;
+    font-weight: 400;
+    font-size: 1em;
+
+    @include media($medium-screen-up) {
+      width: 2.45em;
+      font-size: 4.30em;
+      line-height: $unitless-line-height * 0.6;
+      padding: initial;
+    }
   }
 
   small {
-    display: block;
-    font-size: 0.3em;
+    font-size: 1em;
+    padding-left: $base-margin / 2;
+
+    @include media($medium-screen-up) {
+      display: block;
+      font-size: 0.3em;
+      line-height: $unitless-line-height;
+      padding: initial;
+    }
   }
 
   a {
