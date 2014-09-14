@@ -8,12 +8,12 @@ footer {
 }
 
 footer a img {
-  margin: auto $base-margin;
+  margin: $base-margin;
   width: 25px;
   height: 25px;
 
   @include media($medium-screen-up) {
-    margin: auto;
+    margin: $base-margin auto;
   }
 }
 
