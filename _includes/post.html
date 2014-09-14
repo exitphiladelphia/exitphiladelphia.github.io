@@ -1,6 +1,10 @@
 <article class="post">
   <div class="meta">
-    <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+    <time data-format="%B %e, %Y %l:%M%P"
+          data-local="time"
+          datetime="{{ include.post.date | date_to_xmlschema }}">
+          {{ include.post.date | date: "%b %-d, %Y" }}
+    </time>
     <h1><a href="{{include.post.url}}">{{ include.post.title }}</a></h1>
 
     {% if include.post.author %}

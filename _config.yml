@@ -1,6 +1,6 @@
 address:
-  street: "825 N 2nd St"
-  state: "Philadelphia, PA 12123"
+  street: "825 N 2ND ST"
+  state: "PHILADELPHIA, PA 12123"
   phone: "(215) 425-2450"
 baseurl: ""
 collections:
@@ -8,7 +8,7 @@ collections:
     output: true
 description: >
   Exit Skateshop
-email: "shop@exitphiladelphia.com"
+email: "SHOP@EXITPHILADELPHIA.COM"
 markdown: "kramdown"
 paginate: 10
 social:
