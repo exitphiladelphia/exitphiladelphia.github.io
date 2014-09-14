@@ -1,5 +1,10 @@
 address {
+  margin: $base-margin;
   font-style: normal;
+
+  @include media($medium-screen-up) {
+    margin: $base-margin * 2;
+  }
 }
 
 address a {
