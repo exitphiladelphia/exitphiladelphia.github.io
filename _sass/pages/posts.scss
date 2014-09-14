@@ -9,7 +9,7 @@
 .content {
   $header-size: $base-font-size * 0.75;
 
-  margin: $base-margin / 2;
+  padding: $base-margin / 2;
 
   h1 {
     font-size: $header-size * 2.25;
@@ -45,10 +45,6 @@
 
   iframe {
     display: block;
-    margin: auto;
-  }
-
-  @include media($medium-screen-up) {
-    margin: auto;
+    margin: ($base-margin / 2) * -1;
   }
 }
