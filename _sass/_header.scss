@@ -15,7 +15,11 @@ header {
   }
 
   a {
-    margin: auto $base-margin;
+    margin: auto ($base-margin / 2);
+
+    @include media($medium-screen-up) {
+      margin: auto $base-margin;
+    }
   }
 
   nav {
