@@ -19,6 +19,14 @@ header {
     }
   }
 
+  img {
+    height: 75px;
+
+    @include media($medium-screen-up) {
+      height: 100px;
+    }
+  }
+
   small {
     font-size: 1em;
     padding-left: $base-margin / 2;
