@@ -9,8 +9,15 @@ address a {
 
 .about {
   text-align: center;
+  font-size: 0.85 * $base-font-size;
+
+  @include media($medium-screen-up) {
+    font-size: $base-font-size;
+  }
 
   img {
-    margin: $base-margin auto;
+    @include media($medium-screen-up) {
+      margin: $base-margin auto;
+    }
   }
 }
