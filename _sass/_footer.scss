@@ -22,3 +22,8 @@ img.white {
   border-radius: 3px;
   padding: 3px;
 }
+
+img.facebook {
+  @include filter(invert(100%));
+  padding: 0;
+}
