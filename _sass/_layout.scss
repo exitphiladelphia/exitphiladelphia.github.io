@@ -6,4 +6,8 @@ body {
   width: 100%;
   max-width: 60em;
   margin: auto;
+
+  @include media($large-screen-up) {
+    width: 850px;
+  }
 }
