@@ -9,8 +9,6 @@ collections:
 description: >
   Exit Skateshop
 email: "SHOP@EXITPHILADELPHIA.COM"
-markdown: "kramdown"
-paginate: 10
 social:
   twitter: "exitphiladelphia"
   instagram: "exitphiladelphia"
